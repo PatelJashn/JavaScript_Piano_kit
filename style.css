@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    margin: 0; 
+    height: 100vh;
+    background-image: url('image.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    overflow: hidden;
+  }
+    
+
+
+
+body div{
+    padding: 130px;
+    padding-top: 300px;
+}
+body button{
+    font-size: 80px;
+    width: 130px;
+    height: 130px;
+    background-color: transparent;
+    border: 3px hsla(35, 88%, 17%, 0.918) solid;
+    transition: transform 0.2s ease; /* Smooth transition */
+
+}
+body button:hover{
+    padding: 10px;
+    transform: scale(1.1); /* Scale the button by 10% */
+}
+body button.active{
+    background-color: rgba(240, 237, 237, 0.3); /* 30% transparent background when clicked */
+}
